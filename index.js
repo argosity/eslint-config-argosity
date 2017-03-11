@@ -26,7 +26,7 @@ module.exports = {
         'react/forbid-prop-types': 0,
         'no-unused-vars': [2, {'varsIgnorePattern': '_+'}],
         'react/prefer-stateless-function': [2, { ignorePureComponents: true }],
-        'import/no-extraneous-dependencies': [0, { devDependencies: true }]
+        'import/no-extraneous-dependencies': [0, { devDependencies: true }],
         'space-before-function-paren': ['error', 'never'],
         'no-multi-spaces': [2, {
             exceptions: {
