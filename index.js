@@ -21,6 +21,7 @@ module.exports = {
         'class-methods-use-this': 0,
         'import/no-unresolved': 0,
         'import/extensions': 0,
+        'react/jsx-uses-vars': [2],
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [2, 4],
         'react/forbid-prop-types': 0,
@@ -46,4 +47,16 @@ module.exports = {
         'jsx-a11y',
         'import',
     ],
+    parser: 'babel-eslint',
+    parserOptions: {
+        ecmaFeatures: {
+            'experimentalObjectRestSpread': true,
+            'jsx': true
+        },
+        sourceType: 'module'
+    },
+    env: {
+        browser: true,
+        es6: true
+    },
 };
