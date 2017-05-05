@@ -18,6 +18,13 @@ module.exports = {
                 mode: 'minimum'
             }
         }],
+        'max-len': [ 'error', 100, 2, {
+            ignoreUrls: true,
+            ignoreComments: true,
+            ignoreRegExpLiterals: true,
+            ignoreStrings: true,
+            ignoreTemplateLiterals: true,
+        }],
         'func-names': 0,
         'class-methods-use-this': 0,
         'import/no-unresolved': 0,
