@@ -5,7 +5,8 @@ module.exports = {
     rules: {
         indent: [2, 4],
         camelcase: 0,
-        yoda: [2, 'always'],
+        yoda: [0, 'always'],
+        no-param-reassign:
         'key-spacing': [2, {
             singleLine: {
                 beforeColon: false,
