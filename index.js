@@ -44,6 +44,8 @@ module.exports = {
                 ImportDeclaration: true,
                 VariableDeclarator: true,
                 AssignmentExpression: true,
+                JSXAttribute: true,
+                JSXAttribute: true,
             },
         }],
     },
