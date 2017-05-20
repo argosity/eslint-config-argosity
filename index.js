@@ -6,7 +6,6 @@ module.exports = {
         indent: [2, 4],
         camelcase: 0,
         yoda: [0, 'always'],
-        no-param-reassign:
         'key-spacing': [2, {
             singleLine: {
                 beforeColon: false,
@@ -45,7 +44,9 @@ module.exports = {
                 VariableDeclarator: true,
                 AssignmentExpression: true,
                 JSXAttribute: true,
-                JSXAttribute: true,
+                JSXIdentifier: true,
+                JSXOpeningElement: true,
+                JSXClosingElement: true,
             },
         }],
     },
