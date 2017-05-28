@@ -30,7 +30,7 @@ module.exports = {
         'import/extensions': 0,
         'react/jsx-uses-vars': [2],
         'react/jsx-indent': [2, 4],
-        'react/jsx-indent-props': [2, 4],
+        'react/jsx-indent-props': [0, 4],
         'react/forbid-prop-types': 0,
         'no-unused-vars': [2, {'varsIgnorePattern': '_+'}],
         'react/prefer-stateless-function': [2, { ignorePureComponents: true }],
