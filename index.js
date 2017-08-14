@@ -5,7 +5,8 @@ module.exports = {
     rules: {
         indent: [2, 4],
         camelcase: 0,
-        yoda: [0, 'always'],
+        yoda: ["error", "always", { "onlyEquality": true }],
+        'no-plusplus': ["error", { "allowForLoopAfterthoughts": true }],
         'key-spacing': [2, {
             singleLine: {
                 beforeColon: false,
