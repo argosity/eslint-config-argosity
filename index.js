@@ -37,6 +37,7 @@ module.exports = {
         'react/prefer-stateless-function': [2, { ignorePureComponents: true }],
         'import/no-extraneous-dependencies': [0, { devDependencies: true }],
         'space-before-function-paren': ['error', 'never'],
+        "no-param-reassign": ["error", { "props": false }],
         'no-multi-spaces': [2, {
             exceptions: {
                 Identifier: true,
