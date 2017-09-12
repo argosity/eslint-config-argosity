@@ -28,6 +28,7 @@ module.exports = {
         }],
         'func-names': 0,
         'class-methods-use-this': 0,
+        'no-underscore-dangle': 0,
         'import/no-unresolved': 0,
         'import/extensions': 0,
         'react/jsx-uses-vars': [2],
