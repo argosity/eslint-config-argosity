@@ -7,6 +7,7 @@ module.exports = {
         camelcase: 0,
         yoda: ["error", "always", { "onlyEquality": true }],
         'no-plusplus': ["error", { "allowForLoopAfterthoughts": true }],
+        'padded-blocks': ['error', { "classes": "always", "blocks": "never", "switches": "never" }],
         'key-spacing': [2, {
             singleLine: {
                 beforeColon: false,
