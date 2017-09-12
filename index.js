@@ -5,9 +5,9 @@ module.exports = {
     rules: {
         indent: [2, 4],
         camelcase: 0,
-        yoda: ["error", "always", { "onlyEquality": true }],
-        'no-plusplus': ["error", { "allowForLoopAfterthoughts": true }],
-        'padded-blocks': ['error', { "classes": "always", "blocks": "never", "switches": "never" }],
+        yoda: ['error', 'always', { 'onlyEquality': true }],
+        'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
+        'padded-blocks': ['error', { 'classes': 'always', 'blocks': 'never', 'switches': 'never' }],
         'key-spacing': [2, {
             singleLine: {
                 beforeColon: false,
@@ -39,7 +39,7 @@ module.exports = {
         'react/prefer-stateless-function': [2, { ignorePureComponents: true }],
         'import/no-extraneous-dependencies': [0, { devDependencies: true }],
         'space-before-function-paren': ['error', 'never'],
-        "no-param-reassign": ["error", { "props": false }],
+        'no-param-reassign': ['error', { 'props': false }],
         'no-multi-spaces': [2, {
             exceptions: {
                 Identifier: true,
