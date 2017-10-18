@@ -3,7 +3,7 @@
   "version": "1.3.2",
   "description": "Argosity's ESLint config",
   "main": "index.js",
-  "repository": "https://github.com/argosity/lanes.git",
+  "repository": "https://github.com/argosity/eslint-config-argosity",
   "author": "Nathan Stitt <nathan@stitt.org>",
   "license": "MIT",
   "dependencies": {
