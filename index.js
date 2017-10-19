@@ -27,6 +27,7 @@ module.exports = {
             ignoreTemplateLiterals: true,
         }],
         'func-names': 0,
+        'function-paren-newline': ['error', 'consistent'],
         'class-methods-use-this': 0,
         'no-underscore-dangle': 0,
         'import/no-unresolved': 0,
