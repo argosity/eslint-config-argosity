@@ -41,6 +41,7 @@ module.exports = {
         'import/no-extraneous-dependencies': [0, { devDependencies: true }],
         'space-before-function-paren': ['error', 'never'],
         'no-param-reassign': ['error', { 'props': false }],
+        'object-curly-newline': ['error', { 'consistent': true }],
         'no-multi-spaces': [2, {
             exceptions: {
                 Identifier: true,
