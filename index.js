@@ -3,7 +3,10 @@ module.exports = {
         'eslint-config-airbnb-base',
     ].map(require.resolve),
     rules: {
-        indent: [2, 4],
+        indent: [
+            2, 4,
+            { SwitchCase: 4 },
+        ],
         camelcase: 0,
         yoda: ['error', 'always', { 'onlyEquality': true }],
         'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
