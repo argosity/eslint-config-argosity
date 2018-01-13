@@ -5,7 +5,7 @@ module.exports = {
     rules: {
         indent: [
             2, 4,
-            { SwitchCase: 4 },
+            { SwitchCase: 1 },
         ],
         camelcase: 0,
         yoda: ['error', 'always', { 'onlyEquality': true }],
