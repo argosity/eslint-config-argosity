@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-argosity",
-  "version": "1.7.0",
+  "version": "2.0.0",
   "description": "Argosity's ESLint config",
   "main": "index.js",
   "repository": "https://github.com/argosity/eslint-config-argosity",
   "author": "Nathan Stitt <nathan@stitt.org>",
   "license": "MIT",
   "peerDependencies": {
-      "eslint": ">= 6"
+    "eslint": ">= 6"
   },
   "dependencies": {
     "babel-eslint": "^10.0.1",
