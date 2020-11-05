@@ -8,7 +8,7 @@ module.exports = {
             { SwitchCase: 1 },
         ],
         camelcase: 0,
-        yoda: ['error', 'always', { 'onlyEquality': true }],
+        yoda: 'off',
         'no-plusplus': ['error', { 'allowForLoopAfterthoughts': true }],
         'padded-blocks': ['error', { 'classes': 'always', 'blocks': 'never', 'switches': 'never' }],
         'key-spacing': [2, {
