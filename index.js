@@ -1,6 +1,8 @@
 module.exports = {
     extends: [
-        'eslint-config-airbnb-base',
+        'standard',
+        'standard-react',
+        'plugin:@typescript-eslint/eslint-recommended'
     ].map(require.resolve),
     rules: {
         indent: [
