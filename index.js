@@ -2,9 +2,8 @@ module.exports = {
     extends: [
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
-        "prettier/@typescript-eslint",
-        'plugin:@typescript-eslint/eslint-recommended'
-    ].map(require.resolve),
+        'plugin:@typescript-eslint/eslint-recommended',
+    ],
     rules: {
         indent: [
             2, 4,
