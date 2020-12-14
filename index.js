@@ -1,7 +1,8 @@
 module.exports = {
     extends: [
-        'standard',
-        'standard-react',
+        "plugin:react/recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier/@typescript-eslint",
         'plugin:@typescript-eslint/eslint-recommended'
     ].map(require.resolve),
     rules: {
@@ -31,7 +32,8 @@ module.exports = {
             ignoreStrings: true,
             ignoreTemplateLiterals: true,
         }],
-        'func-names': 0,
+        'import/prefer-default-export': 'off',
+        'default-case': 0,
         'function-paren-newline': ['error', 'consistent'],
         'class-methods-use-this': 0,
         'no-underscore-dangle': 0,
@@ -44,7 +46,6 @@ module.exports = {
         'no-unused-vars': [2, {'varsIgnorePattern': '_+'}],
         'react/prefer-stateless-function': [2, { ignorePureComponents: true }],
         'import/no-extraneous-dependencies': [0, { devDependencies: true }],
-        'space-before-function-paren': ['error', 'never'],
         'no-param-reassign': ['error', { 'props': false }],
         'object-curly-newline': ['error', { 'consistent': true }],
         'no-multi-spaces': [2, {
@@ -60,6 +61,29 @@ module.exports = {
                 JSXClosingElement: true,
             },
         }],
+        "import/prefer-default-export": "off",
+        "default-case": 0,
+        "func-names:": 0,
+        "space-before-function-paren": 0,
+        "react/prop-types": 0,
+        "react/jsx-handler-names": 0,
+        "react/jsx-fragments": 0,
+        "react/no-unused-prop-types": 0,
+        "import/export": 0,
+        "@typescript-eslint/no-use-before-define": "off",
+        "@typescript-eslint/no-unused-vars": ["error"],
+        "@typescript-eslint/no-non-null-assertion": 'off',
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "comma-dangle": ["error", {
+            "arrays": "always-multiline",
+            "objects": "always-multiline",
+            "imports": "always-multiline",
+            "exports": "always-multiline",
+            "functions": "always-multiline"
+        }],
+        "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }],
+        "semi": ["error", "never"],
     },
     globals: {
         fetch: false
