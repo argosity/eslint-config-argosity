@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-argosity",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Argosity's ESLint config",
   "main": "index.js",
   "repository": "https://github.com/argosity/eslint-config-argosity",
