@@ -31,7 +31,7 @@ module.exports = {
             ignoreStrings: true,
             ignoreTemplateLiterals: true,
         }],
-        'import/prefer-default-export': 'off',
+        'import/prefer-default-export': 0,
         'default-case': 0,
         'function-paren-newline': ['error', 'consistent'],
         'class-methods-use-this': 0,
