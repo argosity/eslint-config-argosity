@@ -42,7 +42,7 @@ module.exports = {
         'react/jsx-indent': [2, 4],
         'react/jsx-indent-props': [0, 4],
         'react/forbid-prop-types': 0,
-        'no-unused-vars': [2, {'varsIgnorePattern': '_+'}],
+        'no-unused-vars': [2, {'varsIgnorePattern': '_+', 'ignoreRestSiblings': true}],
         'react/prefer-stateless-function': [2, { ignorePureComponents: true }],
         'import/no-extraneous-dependencies': [0, { devDependencies: true }],
         'no-param-reassign': ['error', { 'props': false }],
@@ -71,7 +71,7 @@ module.exports = {
         'import/prefer-default-export': 0,
         '@typescript-eslint/no-explicit-any': 0,
         "@typescript-eslint/no-use-before-define": 0,
-        "@typescript-eslint/no-unused-vars": ["error"],
+        '@typescript-eslint/no-unused-vars': ["error", { 'varsIgnorePattern': '_+', 'ignoreRestSiblings': true }],
         "@typescript-eslint/no-non-null-assertion": 0,
         "@typescript-eslint/explicit-function-return-type": 0,
         "comma-dangle": ["error", {
