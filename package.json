@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-argosity",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Argosity's ESLint config",
   "main": "index.js",
   "repository": "https://github.com/argosity/eslint-config-argosity",
@@ -10,12 +10,12 @@
     "eslint": ">=8"
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.15.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.29.4",
-    "@typescript-eslint/eslint-plugin": "^5.16.0",
-    "@typescript-eslint/parser": "^5.16.0"
+    "eslint-plugin-react": "^7.29.4"
   }
 }
